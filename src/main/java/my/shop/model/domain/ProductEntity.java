@@ -1,4 +1,4 @@
-package my.shop.entity;
+package my.shop.model.domain;
 
 import java.io.Serializable;
 
@@ -6,7 +6,7 @@ import javax.persistence.*;
 
 @Entity
 
-public class Product implements Serializable {
+public class ProductEntity implements Serializable {
 
 	private Integer id;
 	private String nameProduct;
